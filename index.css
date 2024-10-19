@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {  
+
+    margin: 0;  
+    padding: 0;  
+    outline: none;  
+    box-sizing: border-box;  
+    font-family: 'Outfit', sans-serif;  
+    color: white;  
+    
+}
+
+
+body {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    min-height: 100vh;  
+    background: linear-gradient(108deg, #972020, #ddc041);
+    
+     
+}
+
+.wrapper {  
+    background: linear-gradient(125.68deg, #9c1195, #068bd8);  
+    border-radius: 10px;  
+    padding: 18px 25px;  
+    border: 1px solid white;  
+    text-align: center;  
+    width: 750px;  
+    height: 600px;  
+    
+}
+
+h1 {  
+    font-size: 28px;  
+    margin-bottom: 20px;  
+    color: white;  
+}
+
+label {  
+    text-align: left;  
+    font-size: 15px;  
+    font-weight: 500;  
+    margin: 10px 0;  
+    display: block;  
+}
+
+#longurl {  
+    height: 35px;  
+    width: 400px;  
+    border-radius: 10px;  
+    border: none;  
+    text-align: center;  
+    font-size: 20px;  
+    margin-top: 20px;  
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);  
+    text-overflow: clip;  
+}
+
+#reload-btn {  
+    height: 40px;  
+    width: 90px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: #000;  
+    background-color: #15cde6;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    border: none;  
+    margin-top: 50px;  
+    box-shadow: 0 1px 3px,
+                0 2px 3px,
+                1 2px 3px
+     rgba(0, 0, 0, 0.2);  
+}
+
+#short-btn {  
+    height: 40px;  
+    width: 100px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    color: #000;  
+    border-radius: 20px;  
+    cursor: pointer;  
+    background-color: #15b5ca;  
+    border: none;  
+    margin-left: 20px;  
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);  
+}
+
+textarea {  
+    height: 90px;  
+    width: 400px;  
+    margin-left: 70px;  
+    margin-top: 40px;  
+    color: #000;
+    justify-content: center;
+    align-content: center;
+    font-size: larger;
+ border-radius: 10px;
+}
+
+small {  
+    font-size: 15px;  
+    font-weight: 500;  
+}
+
+#shortUrl {  /* Corrected the ID to #shortUrl */
+    margin-top: 10px;  
+}
+
+#reload-btn:hover {  
+    background-color: white;  
+}
+
+#short-btn:hover {  
+    background-color: white;  
+}
